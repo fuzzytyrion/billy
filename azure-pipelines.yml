@@ -13,9 +13,6 @@ variables:
   buildConfiguration: 'Release'
   dotnetSdkVersion: '6.x'
 
-variables:
-  buildConfiguration: 'Release'
-
 steps:
 - task: UseDotNet@2
   displayName: 'Use .NET SDK $(dotnetSdkVersion)'
