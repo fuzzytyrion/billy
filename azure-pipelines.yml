@@ -13,7 +13,7 @@ steps:
   displayName: 'Use .NET SDK $(dotnetSdkVersion)'
   inputs:
     packageType: sdk
-    version: $(dotnetSdkVersion)'
+    version: '$(dotnetSdkVersion)'
 
 - task: DotNetCoreCLI@2
   displayName: 'Restore project dependencies'
